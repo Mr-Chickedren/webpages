@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+html,body{height: 100%}
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    background: #333;
+    -webkit-text-size-adjust: none;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
+image{border: none;max-width: 100%;height: auto;vertical-align: middle;}
+ul{list-style-type: none;}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+}
+a:hover{
+    color: #964254;			
+	text-decoration: none;
+}
+
+
+header{
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    background: #111;
+}
+header #logo img{
+    display: block;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    bottom: 50%;
+}
+
+#menubar{
+    position: absolute;
+    bottom: 30%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+#menubar li{
+    display: inline-block;
+    margin: 0 1%;
+}
+#menubar li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 140px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 7px;
+}
+#menubar li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+#contents {
+	overflow: hidden;
+	padding: 50px 3%;
+}
+#contents h2{
+    width: 95%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    clear: both;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    background: #111;
+    color: #fff;
+    border-radius: 100px;
+}
+
+#new dl{
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 15px;   
+}
+#new dt{
+    float: left;
+    width: 9em;
+    letter-spacing: 0.1em;
+}
+#new dd{
+    padding-left: 9em;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto 20px;
+}
+table caption{
+    border: 1px solid #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 0.1em;
+}
+table td{
+    word-break: break-all;
+	border: 1px solid #fff;
+	padding: 10px;
+}
+table th{
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30%;
+}
+
+.scroll-show{
+    display: block;
+}
+.scroll a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid #fff;
+}
+.scroll a:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
